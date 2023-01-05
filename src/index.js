@@ -7,6 +7,7 @@ import {
   Link,
 } from "react-router-dom";
 import { Project } from "./Project";
+import { Clockapp } from "./Npm/Clockapp";
 
 
 const router = createBrowserRouter([
@@ -14,6 +15,12 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <Project />
+    ),
+  },
+  {
+    path: "/clock",
+    element: (
+      <Clockapp />
     ),
   },
  

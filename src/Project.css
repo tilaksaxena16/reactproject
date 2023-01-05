@@ -29,14 +29,8 @@
 }
 
 h1 {
-    color: white;
-    background: transparent;
+    color: #30336b;
     font-size: 50px;
-    background-color: #30336b;
-    padding: 6px 0 2px 0;
-    margin-bottom: 10px;
-    width: 100%;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
 }
 
 button {
@@ -70,4 +64,9 @@ button:hover {
 
 .btn_red:hover{
     color: #ff4757;
+}
+
+span{
+    color: #30336b;
+    text-align: center;
 }

@@ -9,6 +9,7 @@ import {
 //import { Project } from "./Project";
 //import { Clockapp } from "./Npm/Clockapp";
 import { Website } from "./Website";
+import { Webpage } from "./Webpage";
 
 
 
@@ -17,6 +18,12 @@ const router = createBrowserRouter([
     path: "/",
     element: (
      <Website />
+    ),
+  },
+  {
+    path: "/webpage",
+    element: (
+     <Webpage />
     ),
   },
  

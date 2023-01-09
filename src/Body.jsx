@@ -13,13 +13,13 @@ const Body = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="https://cdn.dribbble.com/users/4540442/screenshots/10012887/media/5e78ee5d42ff26b3243f2a0a2f9fa0bf.png?compress=1&resize=400x300" width={500} height={500}  className="d-block w-100" alt="..." />
+                        <img src="https://picsum.photos/202/304" width="500px" height="500px"  className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://image.shutterstock.com/image-vector/online-banking-landing-page-website-260nw-1570951840.jpg" className="d-block w-100" alt="..." />
+                        <img src="https://picsum.photos/200/300" className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://www.creativehatti.com/wp-content/uploads/edd/2021/05/Banner-design-for-banking-with-us-11-large.jpg" className="d-block w-100" alt="..." />
+                        <img src="https://picsum.photos/201/300" className="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
